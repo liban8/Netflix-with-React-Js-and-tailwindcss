@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-[#000000] text-white
+    }
+
+}
+@layer components{
+    .Link-Style{
+        @apply px-2 transition-all hover:text-gray-500 
+    }
+    .formcontrol {
+        @apply w-full rounded-lg bg-[#3a3a3a] p-3 text-lg text-white outline-none
+    }
+    .btn{
+        @apply w-full mt-10 rounded-lg bg-[#e50194] p-4 text-white
+    }
+}
